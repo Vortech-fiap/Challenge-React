@@ -1,0 +1,96 @@
+{
+    "tipos_jogadoras": [
+        "Atacante",
+        "Meio-campo",
+        "Zagueira",
+        "Goleira",
+        "Lateral-direita",
+        "Lateral-esquerda"
+    ],
+    "usuarios": [
+        {
+            "nome": "Ana",
+            "email": "ana@passabola.com",
+            "senha": "12345",
+            "tipo": "Atacante",
+            "tipo_user": "jogadora",
+            "inscricoes": [
+                1
+            ]
+        },
+        {
+            "nome": "Bia",
+            "email": "bia@passabola.com",
+            "senha": "bia123",
+            "tipo": "Meio-campo",
+            "tipo_user": "jogadora",
+            "inscricoes": [
+                2,
+                3
+            ]
+        },
+        {
+            "nome": "Carol",
+            "email": "carol@passabola.com",
+            "senha": "carol123",
+            "tipo": "Zagueira",
+            "tipo_user": "jogadora",
+            "inscricoes": []
+        },
+        {
+            "nome": "Admin1",
+            "email": "admin1@passabola.com",
+            "senha": "admin123",
+            "tipo": null,
+            "tipo_user": "admin"
+        },
+        {
+            "nome": "Admin2",
+            "email": "admin2@passabola.com",
+            "senha": "admin456",
+            "tipo": null,
+            "tipo_user": "admin"
+        },
+        {
+            "nome": "lise",
+            "email": "lise@g.com",
+            "senha": "1234",
+            "tipo": "zagueira",
+            "tipo_user": "jogadora"
+        },
+        {
+            "nome": "Luisa",
+            "email": "lu@g.com",
+            "senha": "12345",
+            "tipo": "atacante",
+            "tipo_user": "jogadora"
+        },
+        {
+            "nome": "Juana",
+            "email": "ju@g.com",
+            "senha": "1234",
+            "tipo": "Lateral-esquerda",
+            "tipo_user": "jogadora"
+        }
+    ],
+    "peneiras": [
+        {
+            "id": 1,
+            "nome": "Peneira Sub-17",
+            "local": "S\u00c3\u00a3o Paulo",
+            "data": "20/09/2025"
+        },
+        {
+            "id": 2,
+            "nome": "Peneira Feminina Sub-20",
+            "local": "Rio de Janeiro",
+            "data": "10/10/2025"
+        },
+        {
+            "id": 3,
+            "nome": "Peneira Aberta Nacional",
+            "local": "Belo Horizonte",
+            "data": "15/11/2025"
+        }
+    ]
+}
