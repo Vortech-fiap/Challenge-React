@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liga das Campeãs</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/js/config.js"></script>
+  </head>
+  <body class="min-h-screen bg-gradient-to-b from-brand-50 via-white to-brand-50 text-slate-800 antialiased">
+    <div class="pointer-events-none fixed inset-0">
+      <div class="absolute -top-20 -right-16 h-72 w-72 rounded-full bg-brand-300/30 blur-3xl animate-float"></div>
+      <div class="absolute -bottom-24 -left-16 h-80 w-80 rounded-full bg-mint-500/20 blur-3xl animate-float" style="animation-delay: -2s"></div>
+    </div>
+    <div id="root"></div>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>if(window?.VLibras) new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
