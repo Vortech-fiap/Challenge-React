@@ -2,6 +2,14 @@
 
 Aplicação SPA do projeto Liga das Campeãs migrada de HTML/CSS/JS para React + Vite, preservando o visual original. Inclui autenticação com papéis (usuário comum e organizador), formulário multi-etapas de Peneiras, módulo de Campeonatos (criação/edição/gestão), integração entre inscrições e campeonatos, e dashboard do organizador.
 
+## Equipe 
+
+> Luara Ramos - rm565573
+ 
+> Jean Feltran - rm566534
+
+> Kaio Galvão - rm566536
+
 ## Pré-requisitos
 
 - Node.js 18+ (LTS recomendado)
