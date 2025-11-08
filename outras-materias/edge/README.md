@@ -15,7 +15,7 @@ Este projeto corresponde à **Sprint 4** do desafio "Passa a Bola", com foco na 
 A solução coleta dados na **borda (edge)** com um microcontrolador ESP32, envia essas informações via MQTT para uma plataforma de visualização, permitindo **decisões em tempo real** sobre o uso seguro do campo.
 
 [📌 Projeto no Wokwi](https://wokwi.com/projects/446988294338697217)  
-[🎥 Vídeo demonstrativo](COLE_AQUI_O_LINK_DO_VIDEO)
+[🎥 Vídeo demonstrativo](https://youtu.be/0HCNbC3petE?si=n3ZbEj-lfmM8UuJb)
 
 ## Arquitetura Proposta
 
